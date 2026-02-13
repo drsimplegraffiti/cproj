@@ -1,4 +1,5 @@
 #### Preprocessors:
+All lines that start with # are processed by a preprocessor which is a program invoked by the compiler.
 
 are programs that process the source code before the actual compilation begins. They are not part of the compilation process but operate separately, allowing programmers to modify the code before compilation.
 

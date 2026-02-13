@@ -7,7 +7,7 @@
 //
 // Example:
 
-```c
+```go
 #include <errno.h>
 #include <stdio.h>
 
@@ -32,7 +32,7 @@ The perror() function is used to print an error message to the standard error st
 
 Example
 
-```c
+```go
 #include <errno.h>
 #include <stdio.h>
 #include <string.h>
@@ -55,7 +55,7 @@ int main(){
 3. strerror()
 
 The strerror() function is also used to show the error description. This function returns a pointer to the textual representation of the current errno value.
-```c
+```go
 #include <errno.h>
 #include <stdio.h>
 #include <string.h>
@@ -80,7 +80,7 @@ int main() {
 The ferror() function is used to check if an error occurred during a file operation. It returns a non-zero value if there was an error during the file operation.
 
 Example
-```c
+```go
 #include <stdio.h>
 
 int main() {
@@ -102,7 +102,7 @@ int main() {
 The feof() function checks whether the end of a file has been reached during reading operations. It helps to identify when there is no more data to read from the file.
 
 Example
-```c
+```go
 #include <stdio.h>
 
 int main () {
@@ -132,7 +132,7 @@ clearerr()
 The clearerr() function is used to clear the error and EOF flags for a stream. It allows recovery from errors and allows the stream to be reused for further operations.
 
 Example
-```c
+```go
 #include <stdio.h>
 
 int main() {
@@ -160,7 +160,7 @@ Exit Status
 C programs use the exit() function to terminate the program and return a status code to the operating system. The C standard specifies two constants: EXIT_SUCCESS and EXIT_FAILURE, that may be passed to exit() to indicate successful or unsuccessful termination, respectively. These are macros defined in <stdlib.h> header file.
 
 Example
-```c
+```go
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
