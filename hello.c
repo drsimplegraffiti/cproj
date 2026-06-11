@@ -1,4 +1,5 @@
 #include <raylib.h>
+#include <stdio.h>
 
 // raylibs color
 //              255  0     0      0       0 represents the absence of the color
@@ -16,10 +17,37 @@ int main() {
   SetTargetFPS(60);       // Game speed, in 60 Frames Per Second
   ClearBackground(WHITE); // Set background color (framebuffer clear color)
 
+  ToggleFullscreen(); // Toggle window state: fullscreen/windowed,
+                      // resizes monitor to match window resolution
+
+  // get the screen height and width
+  int h = GetScreenHeight(); // Get current screen height
+  int w = GetRenderWidth();
+  printf("h and w: %d, %d\n", h, w);
+
   // game loop: event handling, updating positions, drawing objects
   while (WindowShouldClose() == false) {
     // 1 event handling
+
+    // mouse
+    if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
+      Vector2 mouse = GetMousePosition();
+      ballX = (int)mouse.x;
+      ballY = (int)mouse.y;
+    }
+
+    // keyboard
+    if (IsKeyDown(KEY_RIGHT))
+      ballX += 3;
+    else if (IsKeyDown(KEY_LEFT))
+      ballX -= 3;
+    else if (IsKeyDown(KEY_UP))
+      ballY -= 3;
+    else if (IsKeyDown(KEY_DOWN))
+      ballY += 3;
+
     if (IsKeyDown(KEY_RIGHT)) {
+
       ballX += 3;
     } else if (IsKeyDown(KEY_LEFT)) {
       ballX -= 3;
