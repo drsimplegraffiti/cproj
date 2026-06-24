@@ -1,0 +1,102 @@
+3.6 SOCKET PROGRAMMING: TCP/IP AND UDP (TLDR)
+
+--------------------------------------------------
+GENERAL IDEA
+--------------------------------------------------
+TCP and UDP are transport-layer protocols.
+They send data across networks in small pieces called packets.
+Both are part of the TCP/IP suite used on the Internet.
+They differ in reliability, speed, and usage.
+
+--------------------------------------------------
+TCP (Transmission Control Protocol)
+--------------------------------------------------
+TCP is connection-oriented.
+→ It creates a connection before sending data.
+
+Reliable delivery:
+→ Ensures all packets arrive.
+→ Retransmits lost packets.
+
+Ordered delivery:
+→ Packets arrive in the same order they were sent.
+
+Error checking:
+→ Detects corrupted data.
+→ Automatically retransmits damaged packets.
+
+Flow control:
+→ Prevents overwhelming the receiver.
+→ Manages transmission speed.
+
+Used when:
+→ Reliability and correctness matter more than speed.
+→ Examples: websites, email, file transfers.
+
+Summary:
+TCP = Reliable, Ordered, Safe, Slower
+
+--------------------------------------------------
+UDP (User Datagram Protocol)
+--------------------------------------------------
+UDP is connectionless.
+→ Sends data without establishing a connection.
+
+Fast transmission:
+→ No handshake.
+→ Less overhead.
+
+No reliability:
+→ Lost packets are not recovered.
+
+No ordering:
+→ Packets may arrive out of order.
+
+Datagram-based:
+→ Each packet is independent.
+→ Good for real-time communication.
+
+Used when:
+→ Speed matters more than reliability.
+→ Examples: streaming, online gaming, VoIP.
+
+Summary:
+UDP = Fast, Lightweight, Unreliable
+
+--------------------------------------------------
+TCP vs UDP Comparison
+--------------------------------------------------
+TCP:
+- Reliable
+- Ordered
+- Error recovery
+- Slower
+- More resource usage
+
+UDP:
+- Unreliable
+- Unordered
+- No recovery
+- Faster
+- Lightweight
+
+--------------------------------------------------
+TCP/IP Protocol Suite
+--------------------------------------------------
+TCP/IP is the foundation of Internet communication.
+IP handles addressing and routing.
+TCP ensures reliable delivery.
+Built into UNIX/Linux systems.
+It is the standard for network communication.
+
+In socket programming:
+→ A TCP server waits for a client.
+→ Client sends a message.
+→ Server processes it.
+→ Server sends a response.
+
+--------------------------------------------------
+FINAL MEMORY TRICK
+--------------------------------------------------
+TCP = Safety first (Slow but Reliable)
+UDP = Speed first (Fast but Risky)

@@ -17,8 +17,8 @@ int main() {
   SetTargetFPS(60);       // Game speed, in 60 Frames Per Second
   ClearBackground(WHITE); // Set background color (framebuffer clear color)
 
-  ToggleFullscreen(); // Toggle window state: fullscreen/windowed,
-                      // resizes monitor to match window resolution
+  // ToggleFullscreen(); // Toggle window state: fullscreen/windowed,
+  // resizes monitor to match window resolution
 
   // get the screen height and width
   int h = GetScreenHeight(); // Get current screen height
@@ -34,6 +34,9 @@ int main() {
       Vector2 mouse = GetMousePosition();
       ballX = (int)mouse.x;
       ballY = (int)mouse.y;
+      printf("=================================================>>");
+      printf("mouse position X,Y : %d,%d\n", ballX, ballY);
+      printf("=================================================>>");
     }
 
     // keyboard
