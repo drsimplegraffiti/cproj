@@ -1,0 +1,28 @@
+#include <stdint.h>
+#include <stdio.h>
+
+struct Person
+{
+  int age;
+  int height;
+  char grade;
+};
+
+void
+printArray ()
+{
+  printf ("hello there\n");
+}
+
+int
+main (void)
+{
+
+  struct Person p1;
+  printf ("size of p1: %lu\n", sizeof (p1));
+
+  int a;
+  printf ("void pointer: %p\n", (void *) &a);
+  printf ("void pointer: %p\n", &a);
+  return 0;
+}

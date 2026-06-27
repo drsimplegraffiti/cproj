@@ -1,0 +1,19 @@
+Temporary breakpoint 2 at 0x1155: file sandbox.c, line 5.
+Starting program: /home/xybug/Downloads/cprog/sandbox 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at sandbox.c:5
+5         int a = 90;
+(gdb) n
+6         int *ptra = NULL;
+(gdb) 
+7         printf("pointer is %d\n", *ptra);
+(gdb) 
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555168 in main () at sandbox.c:7
+7         printf("pointer is %d\n", *ptra);
+(gdb) p *ptra
+Cannot access memory at address 0x0
+(gdb) 

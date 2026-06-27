@@ -1,5 +1,7 @@
 
 ## GDB
+install:
+sudo apt install gcc-multilib
 
 ```bash
 gcc -g main.c -o main   # compile with debug symbols
