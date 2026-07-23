@@ -1,9 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "lvgl/lvgl.h"
 
-int main() {
-  const int *ptr =
-      (int *)malloc(sizeof(int) * 10); // int is 4 byte * 10 = 40 bytes
-  printf("%d\n", *ptr);
+int main(void) {
+  lv_init();
+  lv_display_t *disp =
+      lv_sdl_window_create(320, 240); // SDL2 handles everything
+
+  /* your UI */
+  lv_obj_t *label = lv_label_create(lv_screen_active());
+  lv_label_set_text(label, "Hello LVGL!");
+
+  while (1) {
+    lv_timer_handler();
+    usleep(5000); /* 5ms */
+  }
   return 0;
 }
