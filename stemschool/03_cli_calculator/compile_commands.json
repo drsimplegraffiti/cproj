@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "src/operations.o",
+      "src/operations.c"
+    ],
+    "directory": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator",
+    "file": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator/src/operations.c",
+    "output": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator/src/operations.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "calculator.o",
+      "calculator.c"
+    ],
+    "directory": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator",
+    "file": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator/calculator.c",
+    "output": "/home/xybug/Downloads/cprog/stemschool/03_cli_calculator/calculator.o"
+  }
+]

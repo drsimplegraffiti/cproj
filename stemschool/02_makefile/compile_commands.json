@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/xybug/Downloads/cprog/stemschool/02_makefile",
+    "file": "/home/xybug/Downloads/cprog/stemschool/02_makefile/src/main.c",
+    "output": "/home/xybug/Downloads/cprog/stemschool/02_makefile/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Iinclude",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "src/greetings.o",
+      "src/greetings.c"
+    ],
+    "directory": "/home/xybug/Downloads/cprog/stemschool/02_makefile",
+    "file": "/home/xybug/Downloads/cprog/stemschool/02_makefile/src/greetings.c",
+    "output": "/home/xybug/Downloads/cprog/stemschool/02_makefile/src/greetings.o"
+  }
+]
