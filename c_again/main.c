@@ -43,6 +43,21 @@ int main() {
     char chartwo[120] = " there";
     strcat(charone, chartwo);
     printf("charones is %s\n", charone);
+    /* strncat() */
+
+    /* The strncat() function appends at most n characters from the source
+     * string to the end of the destination string. It automatically adds a null
+     * terminator after the appended characters. */
+
+    /*     It is declared in the <string.h> header file. */
+    /*     The destination array must have enough space to store the resulting
+     * string. */
+    /* char s1[30] = "Hello, "; */
+    /*     char s2[] = "Geeks!"; */
+
+    /*     // Appends "Geeks!" to "Hello, " */
+    /*     strncat(s1, s2, 4); */
+    /*     printf("%s", s1); */
 
     char str1[20] = "Hello there";
     char str2[30];
