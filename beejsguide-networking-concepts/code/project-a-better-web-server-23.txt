@@ -1,0 +1,6 @@
+# Convert to absolute path
+file_path = os.path.abspath(file_path)
+
+# See if the user is trying to break out of the server root
+if not file_path.startswith(server_root):
+    send_404()

@@ -1,0 +1,2 @@
+Your subnet is 198.51.100.0 and there are 24 network bits and 8 host
+bits.

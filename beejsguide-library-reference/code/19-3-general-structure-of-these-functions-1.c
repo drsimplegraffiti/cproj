@@ -1,0 +1,1 @@
+generic_return_type stdc_leading_zeros(generic_value_type value);

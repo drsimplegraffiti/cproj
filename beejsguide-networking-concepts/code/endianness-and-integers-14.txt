@@ -1,0 +1,5 @@
+n = 0xABCD
+bytes = n.to_bytes(2, "big")
+
+for b in bytes:
+    print(f"{b:02X}")  # Print in hex

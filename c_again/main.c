@@ -109,3 +109,10 @@ int main() {
 //
 // gcc main.c -g -Wall -Wextra -Werror  -std=c2x -fsanitize=address -pedantic -o
 // main && ./main
+
+// gcc -Wall -Wextra -Wpedantic -std=c11 -o program program.c
+// Treat warnings as errors. If you get a segfault, run it under:
+// valgrind --leak-check=full ./program
+// or compile with:
+// gcc -fsanitize=address,undefined -g ...
+//

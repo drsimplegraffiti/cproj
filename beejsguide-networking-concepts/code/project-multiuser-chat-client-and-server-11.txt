@@ -1,0 +1,5 @@
+{
+    "type": "chat",
+    "nick": "[sender nickname]",
+    "message": "[message]"
+}

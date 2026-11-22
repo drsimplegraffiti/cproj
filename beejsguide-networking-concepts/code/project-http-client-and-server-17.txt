@@ -1,0 +1,2 @@
+new_conn = s.accept()
+new_socket = new_conn[0]  # This is what we'll recv/send on

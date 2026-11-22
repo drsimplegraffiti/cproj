@@ -1,0 +1,6 @@
+HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 13
+Connection: close
+
+404 not found

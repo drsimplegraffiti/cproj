@@ -1,0 +1,3 @@
+data1 = s1.recv(4096)
+data2 = s2.recv(4096)
+data3 = s3.recv(4096)

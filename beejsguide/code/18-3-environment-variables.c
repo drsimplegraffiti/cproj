@@ -1,0 +1,7 @@
+HISTFILE=/home/beej/.bash_history
+HISTFILESIZE=500
+HISTSIZE=500
+HOME=/home/beej
+HOSTNAME=FBILAPTOP
+HOSTTYPE=x86_64
+IFS=$' \t\n'

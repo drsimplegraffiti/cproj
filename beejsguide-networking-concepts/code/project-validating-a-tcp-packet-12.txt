@@ -1,0 +1,10 @@
+data = pseudoheader + tcp_zero_cksum
+
+offset = 0   # byte offset into data
+
+while offset < len(data):
+    # Slice 2 bytes out and get their value:
+
+    word = int.from_bytes(data[offset:offset + 2], "big")
+
+    offset += 2   # Go to the next 2-byte value

@@ -1,0 +1,2 @@
+for s in ready_to_read:
+    data = s.recv(4096)

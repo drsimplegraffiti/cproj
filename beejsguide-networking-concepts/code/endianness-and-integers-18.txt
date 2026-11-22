@@ -1,0 +1,3 @@
+v = int.from_bytes(bytes, "big")
+
+print(f"{v:04x}")

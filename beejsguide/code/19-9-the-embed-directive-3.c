@@ -1,0 +1,3 @@
+return
+#embed "somevalue.dat"
+;

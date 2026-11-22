@@ -1,0 +1,2 @@
+packet = buffer[:12]   # Grab the packet
+buffer = buffer[12:]   # Slice it off the front

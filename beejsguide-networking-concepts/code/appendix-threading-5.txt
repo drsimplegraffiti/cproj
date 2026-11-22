@@ -1,0 +1,1 @@
+result = [0] * n   # Create an array of `n` zeros

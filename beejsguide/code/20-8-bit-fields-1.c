@@ -1,0 +1,6 @@
+struct foo {
+    unsigned int a:5;
+    unsigned int b:5;
+    unsigned int c:3;
+    unsigned int d:3;
+};

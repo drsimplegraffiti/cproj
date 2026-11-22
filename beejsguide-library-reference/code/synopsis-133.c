@@ -1,0 +1,6 @@
+#include <stdatomic.h>
+
+void atomic_flag_clear(volatile atomic_flag *object);
+
+void atomic_flag_clear_explicit(volatile atomic_flag *object,
+                                memory_order order);

@@ -1,0 +1,1 @@
+long_str = "a" * 256   # Make a string of 256 "a"s

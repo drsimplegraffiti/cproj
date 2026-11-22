@@ -1,0 +1,3 @@
+About to quick exit...
+Quick exit handler 2 called!
+Quick exit handler 1 called!

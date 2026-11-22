@@ -1,0 +1,1 @@
+struct lconv *x = localeconv();

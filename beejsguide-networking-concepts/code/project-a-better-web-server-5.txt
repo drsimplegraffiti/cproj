@@ -1,0 +1,4 @@
+fullpath = "/foo/bar/baz.txt"
+
+os.path.split(fullpath)
+=> ('/foo/bar', 'baz.txt')

@@ -1,0 +1,1 @@
+dig ns example.com

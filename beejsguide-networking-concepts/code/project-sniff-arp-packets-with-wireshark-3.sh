@@ -1,0 +1,1 @@
+ping [IP address]

@@ -1,0 +1,18 @@
+add the listener socket to the set
+
+main loop:
+
+    call select() and get the sockets that are ready to read
+
+    for all sockets that are ready to read:
+
+        if the socket is the listener socket:
+            accept() a new connection
+            add the new socket to our set!
+
+        else the socket is a regular socket:
+            recv() the data from the socket
+
+            if you receive zero bytes
+                the client hung up
+                remove the socket from tbe set!

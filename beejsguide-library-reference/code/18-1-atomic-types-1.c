@@ -1,0 +1,1 @@
+_Atomic(double) x;

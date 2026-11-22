@@ -1,0 +1,6 @@
+packet_buffer = b''
+
+def get_next_packet(s):
+    global packet_buffer
+
+    # Now we can use the global version in here

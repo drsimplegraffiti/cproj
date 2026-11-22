@@ -1,0 +1,12 @@
+*** pat has joined the chat
+pat: Hello?
+*** leslie has joined the chat
+leslie: hi everyone!
+pat: hows it going
+*** chris has joined the chat
+chris: OK, now we can start!
+pat: lol
+leslie: Why are you always last?
+*** chris has left the chat
+
+pat> oh no!! :)█

@@ -1,0 +1,3 @@
+About to exit...
+Exit handler 2 called!
+Exit handler 1 called!

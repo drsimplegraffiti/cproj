@@ -1,0 +1,2 @@
+example.com.            172800  IN      NS      a.iana-servers.net.
+example.com.            172800  IN      NS      b.iana-servers.net.

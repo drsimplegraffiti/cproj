@@ -1,0 +1,1 @@
+char alignas(int) c;

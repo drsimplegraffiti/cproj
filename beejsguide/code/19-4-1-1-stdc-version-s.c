@@ -1,0 +1,1 @@
+#if __STDC_VERSION__ >= 1999901L

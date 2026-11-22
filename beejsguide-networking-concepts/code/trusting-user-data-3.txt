@@ -1,0 +1,1 @@
+mycommand 1; cat /etc/passwd

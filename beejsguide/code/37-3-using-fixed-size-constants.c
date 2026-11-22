@@ -1,0 +1,5 @@
+INT8_C(x)     UINT8_C(x)
+INT16_C(x)    UINT16_C(x)
+INT32_C(x)    UINT32_C(x)
+INT64_C(x)    UINT64_C(x)
+INTMAX_C(x)   UINTMAX_C(x)

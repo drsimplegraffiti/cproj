@@ -1,0 +1,3 @@
+while the connection isn't closed:
+    sentence = get_next_packet()
+    print(sentence)

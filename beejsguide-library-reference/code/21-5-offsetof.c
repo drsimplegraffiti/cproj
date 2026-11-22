@@ -1,0 +1,1 @@
+offsetof(type, fieldname);

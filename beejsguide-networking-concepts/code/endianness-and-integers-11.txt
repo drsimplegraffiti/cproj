@@ -1,0 +1,3 @@
+n = 3490
+
+bytes = n.to_bytes(2, "big")

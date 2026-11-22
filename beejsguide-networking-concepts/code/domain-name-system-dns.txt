@@ -1,0 +1,7 @@
+a.root-servers.net
+b.root-servers.net
+c.root-servers.net
+...
+k.root-servers.net
+l.root-servers.net
+m.root-servers.net

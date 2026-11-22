@@ -1,0 +1,3 @@
+fullpath = "/foo/bar/baz.txt"
+
+file_name = os.path.split(fullpath)[-1]

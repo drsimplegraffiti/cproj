@@ -1,0 +1,4 @@
+n = 0x0102
+bytes = n.to_bytes(2, "big")
+
+print(bytes)

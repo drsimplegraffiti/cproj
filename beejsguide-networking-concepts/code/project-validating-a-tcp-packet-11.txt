@@ -1,0 +1,2 @@
+if len(tcp_zero_cksum) % 2 == 1:
+    tcp_zero_cksum += b'\x00'

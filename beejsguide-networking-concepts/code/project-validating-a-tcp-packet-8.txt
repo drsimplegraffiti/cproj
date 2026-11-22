@@ -1,0 +1,1 @@
+tcp_zero_cksum = tcp_data[:16] + b'\x00\x00' + tcp_data[18:]

@@ -1,0 +1,3 @@
+nan("!");
+
+strtod("NAN", NULL);

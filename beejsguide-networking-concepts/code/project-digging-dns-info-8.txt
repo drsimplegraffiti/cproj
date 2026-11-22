@@ -1,0 +1,2 @@
+;; ANSWER SECTION:
+example.com.            78236   IN      A       93.184.216.34

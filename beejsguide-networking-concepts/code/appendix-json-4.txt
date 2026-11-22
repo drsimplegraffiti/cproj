@@ -1,0 +1,7 @@
+d = {
+    "name": "Ada Lovelace",
+    "country": "England",
+    "years": [ 1815, 1852 ]
+}
+
+json.dumps(d)

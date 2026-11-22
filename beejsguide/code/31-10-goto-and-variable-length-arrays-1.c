@@ -1,0 +1,1 @@
+error: jump into scope of identifier with variably modified type

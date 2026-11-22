@@ -1,0 +1,7 @@
+00 fd    represents 00fd (253 decimal)
+00 fe    represents 00fe (254 decimal)
+00 ff    represents 00ff (255 decimal)
+01 00    represents 0100 (256 decimal)
+01 01    represents 0101 (257 decimal)
+01 02    represents 0102 (258 decimal)
+01 03    represents 0103 (259 decimal)

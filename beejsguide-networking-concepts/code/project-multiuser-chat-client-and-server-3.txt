@@ -1,0 +1,1 @@
+alice> this is some sample input

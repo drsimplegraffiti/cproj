@@ -1,0 +1,2 @@
+;; ANSWER SECTION:
+oregonstate.edu. 600 IN MX 5 oregonstate-edu.mail.protection.outlook.com.

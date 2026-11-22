@@ -1,0 +1,1 @@
+run_of_ones = (1 << count) - 1

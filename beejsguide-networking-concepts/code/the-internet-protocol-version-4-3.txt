@@ -1,0 +1,5 @@
+24 network bits
+----------
+198.51.100.0
+           -
+         8 host bits

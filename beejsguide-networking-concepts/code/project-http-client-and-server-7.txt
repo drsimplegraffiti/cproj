@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Age: 586480
+Cache-Control: max-age=604800
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 22 Sep 2022 22:20:41 GMT
+Etag: "3147526947+ident"
+Expires: Thu, 29 Sep 2022 22:20:41 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (sec/96EE)
+Vary: Accept-Encoding
+X-Cache: HIT
+Content-Length: 1256
+Connection: close
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+    ...

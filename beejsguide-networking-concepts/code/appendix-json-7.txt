@@ -1,0 +1,8 @@
+{
+    "name": "Ada Lovelace",
+    "country": "England",
+    "years": [
+        1815,
+        1852
+    ]
+}

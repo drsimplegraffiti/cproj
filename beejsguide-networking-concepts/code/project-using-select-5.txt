@@ -1,0 +1,18 @@
+waiting for connections
+('127.0.0.1', 61457): connected
+('127.0.0.1', 61457) 22 bytes: b'test1: xajrxttphhlwmjf'
+('127.0.0.1', 61457) 22 bytes: b'test1: geqtgopbayogenz'
+('127.0.0.1', 61457) 23 bytes: b'test1: jquijcatyhvfpydn'
+('127.0.0.1', 61457) 23 bytes: b'test1: qbavdzfihualuxzu'
+('127.0.0.1', 61457) 24 bytes: b'test1: dyqmzawthxjpkgpcg'
+('127.0.0.1', 61457) 23 bytes: b'test1: mhxebjpmsmjsycmj'
+('127.0.0.1', 61458): connected
+('127.0.0.1', 61458) 23 bytes: b'test2: bejnrwxftgzcgdyg'
+('127.0.0.1', 61457) 24 bytes: b'test1: ptcavvhroihmgdfyw'
+('127.0.0.1', 61458) 24 bytes: b'test2: qrumcrmqxauwtcuaj'
+('127.0.0.1', 61457) 26 bytes: b'test1: tzoitpusjaxljkfxfvw'
+('127.0.0.1', 61457) 17 bytes: b'test1: mtcwokwquc'
+('127.0.0.1', 61458) 18 bytes: b'test2: whvqnzgtaem'
+('127.0.0.1', 61457): disconnected
+('127.0.0.1', 61458) 21 bytes: b'test2: raqlvexhimxfgl'
+('127.0.0.1', 61458): disconnected

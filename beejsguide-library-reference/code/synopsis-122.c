@@ -1,0 +1,3 @@
+#include <stdatomic.h>
+
+void atomic_init(volatile A *obj, C value);

@@ -1,0 +1,18 @@
+; <<>> DiG 9.10.6 <<>> example.com AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13491
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;example.com.            IN    AAAA
+
+;; ANSWER SECTION:
+example.com.        81016    IN    AAAA    2606:2800:220:1:248:1893:25c8:1946
+
+;; Query time: 14 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1)
+;; WHEN: Wed Sep 28 16:05:16 PDT 2022
+;; MSG SIZE  rcvd: 68

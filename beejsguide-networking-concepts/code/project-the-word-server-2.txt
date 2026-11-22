@@ -1,0 +1,5 @@
+length 2   length 12
+  |           |
++-+-+       +-+-+
+|   | h  i  |   | e  n  c  y  c  l  o  p  e  d  i  a
+00 02 68 69 00 0C 65 6E 63 79 63 6C 6F 70 65 64 69 61
