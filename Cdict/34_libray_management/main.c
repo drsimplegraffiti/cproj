@@ -1,8 +1,8 @@
 
-#include "db.h"
 #include "books.h"
-#include "members.h"
 #include "borrowings.h"
+#include "db.h"
+#include "members.h"
 #include <stdio.h>
 
 void books_menu(MYSQL *conn) {
@@ -14,11 +14,21 @@ void books_menu(MYSQL *conn) {
     getchar();
 
     switch (choice) {
-        case 1: view_books(conn);   break;
-        case 2: add_book(conn);     break;
-        case 3: search_book(conn);  break;
-        case 4: update_book(conn);  break;
-        case 5: delete_book(conn);  break;
+    case 1:
+        view_books(conn);
+        break;
+    case 2:
+        add_book(conn);
+        break;
+    case 3:
+        search_book(conn);
+        break;
+    case 4:
+        update_book(conn);
+        break;
+    case 5:
+        delete_book(conn);
+        break;
     }
 }
 
@@ -31,9 +41,15 @@ void members_menu(MYSQL *conn) {
     getchar();
 
     switch (choice) {
-        case 1: view_members(conn);  break;
-        case 2: add_member(conn);    break;
-        case 3: delete_member(conn); break;
+    case 1:
+        view_members(conn);
+        break;
+    case 2:
+        add_member(conn);
+        break;
+    case 3:
+        delete_member(conn);
+        break;
     }
 }
 
@@ -46,15 +62,22 @@ void borrowings_menu(MYSQL *conn) {
     getchar();
 
     switch (choice) {
-        case 1: view_borrowings(conn); break;
-        case 2: borrow_book(conn);     break;
-        case 3: return_book(conn);     break;
+    case 1:
+        view_borrowings(conn);
+        break;
+    case 2:
+        borrow_book(conn);
+        break;
+    case 3:
+        return_book(conn);
+        break;
     }
 }
 
 int main() {
     MYSQL *conn = connect_db();
-    if (!conn) return 1;
+    if (!conn)
+        return 1;
 
     CLEAR; // clear on startup
 
@@ -67,14 +90,22 @@ int main() {
         getchar();
 
         switch (choice) {
-            case 1: books_menu(conn);      break;
-            case 2: members_menu(conn);    break;
-            case 3: borrowings_menu(conn); break;
-            case 9: CLEAR;                 break;
-            case 0:
-                close_db(conn);
-                printf("goodbye\n");
-                return 0;
+        case 1:
+            books_menu(conn);
+            break;
+        case 2:
+            members_menu(conn);
+            break;
+        case 3:
+            borrowings_menu(conn);
+            break;
+        case 9:
+            CLEAR;
+            break;
+        case 0:
+            close_db(conn);
+            printf("goodbye\n");
+            return 0;
         }
     }
 }
