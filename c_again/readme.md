@@ -11,12 +11,12 @@ NERDTree Menu. Use j/k/enter and the shortcuts indicated
 
 Then press the letter shown:
 
-| Keys | Action |
-|---|---|
-| `m` then `a` | add a new file or folder |
+| Keys         | Action                          |
+| ------------ | ------------------------------- |
+| `m` then `a` | add a new file or folder        |
 | `m` then `m` | rename / move the selected node |
-| `m` then `d` | delete the selected node |
-| `m` then `c` | copy the selected node |
+| `m` then `d` | delete the selected node        |
+| `m` then `c` | copy the selected node          |
 
 **Adding a file or folder**
 
@@ -31,12 +31,12 @@ Then press the letter shown:
 
 Editing is just opening it:
 
-| Key | Action |
-|---|---|
+| Key            | Action                     |
+| -------------- | -------------------------- |
 | `Enter` or `o` | open in the current window |
-| `i` | open in a horizontal split |
-| `s` | open in a vertical split |
-| `t` | open in a new tab |
+| `i`            | open in a horizontal split |
+| `s`            | open in a vertical split   |
+| `t`            | open in a new tab          |
 
 To rename, use `m` then `m` and type the new name.
 
@@ -46,13 +46,13 @@ Press `m`, then `d`, then confirm with `y`. NERDTree deletes the file permanentl
 
 **Other useful keys in the tree**
 
-| Key | Action |
-|---|---|
+| Key | Action                                                        |
+| --- | ------------------------------------------------------------- |
 | `R` | refresh the tree (use this if a file was changed outside Vim) |
-| `I` | show or hide dotfiles |
-| `C` | make the selected folder the root |
-| `u` | go up one directory |
-| `?` | show all NERDTree keys |
+| `I` | show or hide dotfiles                                         |
+| `C` | make the selected folder the root                             |
+| `u` | go up one directory                                           |
+| `?` | show all NERDTree keys                                        |
 
 **Optional: skip the menu with direct mappings.** If you want to press fewer keys, add this to the NERDTree section of your vimrc:
 
@@ -62,5 +62,4 @@ let g:NERDTreeMapMenu = 'm'
 
 That is already the default, so no change is needed. If you would rather use a menu-free command, you can also use `:!touch filename` or `:e path/to/newfile` from inside Vim, then save with `:w`. The new file shows up in the tree after pressing `R`.
 
-
-volatile 	Tells the compiler that a variable can change at any time, for example by hardware, so it must always read the value from memory
+volatile Tells the compiler that a variable can change at any time, for example by hardware, so it must always read the value from memory

@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* I want to tell you a secret. Generally speaking, when a C programmer talks
+ * about a pointer to an array, they’re talking about a pointer to the first
+ * element of the array60. */
+
+/* So let’s get a pointer to the first element of an array. */
+
 int main() {
 
     /* 1. NULL Pointer */
