@@ -1,0 +1,37 @@
+
+     Proof (same source, two runs):
+
+     $ ls foo.txt        → No such file or directory
+     $ ./prog            → exit 139 (SIGSEGV)
+
+     $ printf 'first line\nsecond\nthird without newline' > foo.txt
+     $ ./prog            → first line / second / third without newline   exit 0
+
+     Two fixes — pick one:
+
+     1. Create the input file in c_again/memory/foo.txt (the runner cds into the source's
+     folder, so that's the path it looks for).
+
+     2. Guard the fopen — the code already checks every malloc/realloc, but not this:
+
+     int main(void) {
+         FILE *fp = fopen("foo.txt", "r");
+
+         if (fp == NULL) {
+             perror("fopen");
+             return EXIT_FAILURE;
+         }
+
+         char *line;
+         while ((line = readline(fp)) != NULL) {
+             printf("%s\n", line);
+             free(line);
+         }
+         fclose(fp);
+     }
+
+     The readline() logic itself is fine — it compiled clean under -Wall -Wextra and handled
+     the no-trailing-newline case correctly when the file existed.
+
+     Want me to apply the guard to readlineofarbitiarylines.c, and/or add -Wall -Wextra to
+     the C command in compiler.lua so warnings show up every run?
